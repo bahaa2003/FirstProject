@@ -1,0 +1,19 @@
+const ADD_ADMIN = "user:ADD_ADMIN";
+const GET_ALL_ADMIN = "user:GET_ALL_ADMIN";
+const DELETE_ADMIN = "user:DELETE_ADMIN";
+const GET_ALL_USER ="user:GET_ALL_USER";
+const GET_ALL_POST = "user:GET_ALL_POST";
+const ADD_ADVERTISING = "user:ADD_ADVERTISING";
+const VIEW_REPORE_POST ="user:VIEW_REPORT_POST";
+const BLOCK_USER ="user:BLOCK_USER"
+
+module.exports={
+    ADD_ADMIN,
+    GET_ALL_ADMIN,
+    DELETE_ADMIN,
+    GET_ALL_USER,
+    GET_ALL_POST,
+    ADD_ADVERTISING,
+    VIEW_REPORE_POST,
+    BLOCK_USER
+}
